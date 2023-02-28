@@ -40,7 +40,7 @@ module DecreaseCount_tb;
     .count(count)
   );
 
-  always #5 clk = ~clk; // Generate clock signal with period of 10 time units
+  always #5 clk = ~clk; //clk con perido de 10 unidades de tiempo
 
   initial begin
     clk = 0;

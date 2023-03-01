@@ -1,7 +1,12 @@
-|bin2bcd_tb
-
-
-|bin2bcd_tb|bin2bcd:bcdconverter
+|bin2bcd
+bin[0] => Mux5.IN32
+bin[0] => Mux4.IN32
+bin[0] => Mux3.IN32
+bin[0] => Mux2.IN32
+bin[0] => Mux1.IN32
+bin[0] => Mux0.IN32
+bin[0] => Mux6.IN32
+bin[0] => Mux7.IN32
 bin[0] => bcd[0].DATAIN
 bin[1] => LessThan0.IN6
 bin[1] => Add0.IN6
@@ -20,5 +25,12 @@ bcd[4] <= bcd.DB_MAX_OUTPUT_PORT_TYPE
 bcd[5] <= <GND>
 bcd[6] <= <GND>
 bcd[7] <= <GND>
+segments[0] <= segments[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[1] <= segments[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[2] <= segments[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[3] <= segments[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[4] <= segments[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[5] <= segments[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+segments[6] <= segments[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
 
 

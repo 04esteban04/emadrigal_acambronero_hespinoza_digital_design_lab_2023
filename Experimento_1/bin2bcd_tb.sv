@@ -2,8 +2,9 @@ module bin2bcd_tb();
 
    logic [3:0] bin;
    logic [7:0] bcd;
+	logic [6:0] segments;
 	
-	bin2bcd bcdconverter(.bin(bin), .bcd(bcd));
+	bin2bcd bcdconverter(.bin(bin), .bcd(bcd), .segments(segments));
 	
 	initial begin
 		bin = 4'b0000; #20; //0

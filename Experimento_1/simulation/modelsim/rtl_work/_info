@@ -11,24 +11,24 @@ cModel Technology
 Z0 dC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/simulation/modelsim
 vbin2bcd
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1677562362
+Z2 !s110 1677609227
 !i10b 1
-!s100 =YgXQMLUK>6_8DMEaG2KN2
+!s100 9e10Z_LzM^9n=HQS5R^ce1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-II@]=kdIPfXViS<6zVbO_51
+I@nPn9V05=PoS41@C=6]m]0
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1677561246
+w1677598742
 8C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
 FC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
 !i122 1
-L0 1 20
+L0 1 41
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1677562362.000000
+Z6 !s108 1677609227.000000
 !s107 C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1|C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
 !i113 1
@@ -39,17 +39,17 @@ vbin2bcd_tb
 R1
 R2
 !i10b 1
-!s100 ihaZE7d<jjQleE>ZTD_iK2
+!s100 h8OMkFgWaU=DfPCESGYZX1
 R3
-I5RP3UH@>_];I`WFN:dj=<0
+I22;l@IJiiA^X6i[b;39Bj0
 R4
 S1
 R0
-w1677561047
+w1677598838
 8C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
 FC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
 !i122 0
-L0 1 27
+L0 1 28
 R5
 r1
 !s85 0

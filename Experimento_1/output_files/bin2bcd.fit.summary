@@ -1,13 +1,13 @@
-Fitter Status : Successful - Mon Feb 27 23:32:02 2023
+Fitter Status : Successful - Tue Feb 28 21:24:16 2023
 Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 Revision Name : bin2bcd
 Top-level Entity Name : bin2bcd
 Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 3 / 32,070 ( < 1 % )
+Logic utilization (in ALMs) : 6 / 32,070 ( < 1 % )
 Total registers : 0
-Total pins : 12 / 457 ( 3 % )
+Total pins : 19 / 457 ( 4 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )
 Total RAM Blocks : 0 / 397 ( 0 % )

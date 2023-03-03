@@ -89,6 +89,7 @@ module mainModule (
   wire [0:0] count;
 
   DCounter #(.N(N)) counter (
+    .btn_increment(btn_increment),
     .btn_decrement(btn_decrement),
     .btn_reset(btn_reset),
     .count(count)

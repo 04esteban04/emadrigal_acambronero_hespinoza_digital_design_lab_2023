@@ -1,4 +1,7 @@
-|bin2bcd
+|bin2bcd_tb
+
+
+|bin2bcd_tb|bin2bcd:bcdconverter
 bin[0] => Mux5.IN32
 bin[0] => Mux4.IN32
 bin[0] => Mux3.IN32

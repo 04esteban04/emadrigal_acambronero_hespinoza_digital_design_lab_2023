@@ -1,8 +1,8 @@
 To,Location
-bin[0],PIN_AB12
-bin[1],PIN_AC12
-bin[2],PIN_AF9
 bin[3],PIN_AF10
+bin[2],PIN_AF9
+bin[1],PIN_AC12
+bin[0],PIN_AB12
 segments[6],PIN_AE26
 segments[5],PIN_AE27
 segments[4],PIN_AE28 

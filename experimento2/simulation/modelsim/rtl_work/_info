@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/hrlds/Documents/TDigitales/L2_fulladder/simulation/modelsim
+Efulladder_1
+Z1 w1677636548
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_1.vhd
+Z5 FC:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_1.vhd
+l0
+L6 1
+V[b8hGdJ86dGR8`TLgh>>e2
+!s100 WWbZ>20IgJYg6]nk3l?N20
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1677718369
+!i10b 1
+Z8 !s108 1677718369.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_1.vhd|
+Z10 !s107 C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_1.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R2
+R3
+DEx4 work 11 fulladder_1 0 22 [b8hGdJ86dGR8`TLgh>>e2
+!i122 0
+l18
+L14 10
+VIcT0IlZLc958k`EKaK9lR1
+!s100 dHZ9i4dNd<Qko370jZ4Xk1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efulladder_4
+Z13 w1677637652
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4.vhd
+Z15 FC:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4.vhd
+l0
+L4 1
+V[lF4a[9DND=Elek4=PN`V3
+!s100 o<7@7N^[PFaC8E;KkzJnI3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4.vhd|
+Z17 !s107 C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4.vhd|
+!i113 1
+R11
+R12
+Astructural
+R2
+R3
+DEx4 work 11 fulladder_4 0 22 [lF4a[9DND=Elek4=PN`V3
+!i122 1
+l26
+L12 23
+V::zP>?geeHB7T`Gf`_lA=1
+!s100 Xd<L_GfmR9Z4RX6PXmNgZ3
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Efulladder_4tb
+Z18 w1677718345
+R2
+R3
+!i122 2
+R0
+Z19 8C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd
+Z20 FC:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd
+l0
+L4 1
+VL543Kn0]5CoE4XYMSKm]91
+!s100 l^3]hJj2cEXmBc0cej^]m2
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd|
+!s107 C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 13 fulladder_4tb 0 22 L543Kn0]5CoE4XYMSKm]91
+!i122 2
+l30
+L7 63
+VTKn0=Ob`5mbZffiQ:j[c12
+!s100 bb>lBW;@X7DKifC:k;]BE0
+R6
+31
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd|
+!i113 1
+R11
+R12

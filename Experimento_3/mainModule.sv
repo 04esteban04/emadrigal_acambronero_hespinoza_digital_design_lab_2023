@@ -1,19 +1,25 @@
 module DCounter
 #(parameter N=6)
 (
+  input wire btn_increment,// Boton para aumentar el numero
   input wire btn_decrement,// Boton para bajar el numero
   input wire btn_reset,    // Boton de reset
   output wire [2**N-1:0] count // El contador
 );
-	always @(negedge btn_decrement or negedge btn_reset) begin //negedge transicion de 1 a 0 
+	always @(negedge btn_decrement or negedge btn_reset or negedge btn_increment) begin //negedge transicion de 1 a 0 
     if (~btn_decrement) begin // Si el boton se presiona se baja en 1 count
-      if (count >= 0) begin // Si el valor es mayor que cero
+      if (count > 0) begin // Si el valor es mayor que cero
         count <= count - 1;
       end
 		else begin
-			count <= 2**N-1; // Volvemos al valor max
+			count <= 0; // Negativos se pone en cero
 		end
     end
+	 if (~btn_increment) begin // Si el boton se presiona se baja en 1 count
+		 if (count < 2**N-1) begin // Si el valor es mayor que cero
+			 count <= count + 1;
+		 end
+	 end
 
     if (~btn_reset) begin // Si el reset se presiona
       count <= 2**N-1; // Volvemos al valor max
@@ -71,15 +77,16 @@ endmodule
 //////////////////////////////////////////
 
 module mainModule (
-  input wire btn_decrement,
-  input wire btn_reset,
-  output wire [6:0] segA,
-  output wire [6:0] segB
+  input wire btn_increment,// Boton para aumentar el numero
+  input wire btn_decrement,// Boton para bajar el numero
+  input wire btn_reset,    // Boton para reset
+  output wire [6:0] segA, // 7-seg A
+  output wire [6:0] segB  // 7-seg B
 );
 
   parameter N = 6;
 
-  wire [2**N-1:0] count;
+  wire [0:0] count;
 
   DCounter #(.N(N)) counter (
     .btn_decrement(btn_decrement),

@@ -45,10 +45,9 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+C:/Users/Esteban/Desktop/Lab\ #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1 {C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv}
-vlog -sv -work work +incdir+C:/Users/Esteban/Desktop/Lab\ #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1 {C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv}
+vlog -sv -work work +incdir+C:/Users/esteb/OneDrive/Escritorio/Lab\ #2\ -\ Taller\ Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1 {C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv}
 
-vlog -sv -work work +incdir+C:/Users/Esteban/Desktop/Lab\ #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1 {C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv}
+vlog -sv -work work +incdir+C:/Users/esteb/OneDrive/Escritorio/Lab\ #2\ -\ Taller\ Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1 {C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  bin2bcd_tb
 

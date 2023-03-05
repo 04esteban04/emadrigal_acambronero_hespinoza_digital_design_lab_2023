@@ -8,32 +8,32 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/simulation/modelsim
+Z0 dC:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/simulation/modelsim
 vbin2bcd
 Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1677860294
+Z2 !s110 1678045062
 !i10b 1
-!s100 FI?Aedab`zQ`N2F[[A8HC2
+!s100 BBXFXLoUhZQ_X12U4blDQ1
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IbhjbUBaSJ:YTT3k<0cUDC1
+ImfE9mHRm@GaoNEQ[HQE6a1
 Z4 VDg1SIo80bB@j0V0VzS_@n1
 S1
 R0
-w1677641007
-8C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
-FC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
-!i122 1
-L0 1 41
+w1678044621
+8C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
+FC:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv
+!i122 0
+L0 1 43
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1677860294.000000
-!s107 C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1|C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
+Z6 !s108 1678045062.000000
+!s107 C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1|C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd.sv|
 !i113 1
 Z7 o-sv -work work
-Z8 !s92 -sv -work work {+incdir+C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1}
+Z8 !s92 -sv -work work {+incdir+C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1}
 Z9 tCvgOpt 0
 vbin2bcd_tb
 R1
@@ -41,22 +41,22 @@ R2
 !i10b 1
 !s100 h8OMkFgWaU=DfPCESGYZX1
 R3
-I22;l@IJiiA^X6i[b;39Bj0
+ImYibWN4<JB4Kc<XcZFiB<2
 R4
 S1
 R0
-w1677598838
-8C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
-FC:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
-!i122 2
+w1678043690
+8C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
+FC:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv
+!i122 1
 L0 1 28
 R5
 r1
 !s85 0
 31
 R6
-!s107 C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1|C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv|
+!s107 C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1|C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/bin2bcd_tb.sv|
 !i113 1
 R7
 R8

@@ -6,6 +6,7 @@ module bin2bcd(input [3:0] bin,
 		
 	always @(bin) begin
 		 bcd = 0;
+		 segments = 0;
 		
 		//Se itera una vez por cada bit de entrada	
 		 for (i = 0; i < 4; i = i+1) begin	
@@ -35,6 +36,7 @@ module bin2bcd(input [3:0] bin,
 		  8'b0001_0011 : segments = 7'b1000010; //13 - D
 		  8'b0001_0100 : segments = 7'b0110000; //14 - E
 		  8'b0001_0101 : segments = 7'b0111000; //15 - F
+		  default: segments = 7'b1111111; //off
 		endcase 
 		 
 	end

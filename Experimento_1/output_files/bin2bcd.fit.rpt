@@ -1,5 +1,5 @@
 Fitter report for bin2bcd
-Fri Mar  3 10:15:07 2023
+Sun Mar  5 13:36:23 2023
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +---------------------------------+------------------------------------------------+
-; Fitter Status                   ; Successful - Fri Mar  3 10:15:07 2023          ;
+; Fitter Status                   ; Successful - Sun Mar  5 13:36:22 2023          ;
 ; Quartus Prime Version           ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                   ; bin2bcd                                        ;
 ; Top-level Entity Name           ; bin2bcd                                        ;
@@ -145,17 +145,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 12          ;
-; Maximum allowed            ; 12          ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
-; Maximum used               ; 12          ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 2           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.1%      ;
-;     Processor 3            ;   0.1%      ;
-;     Processors 4-12        ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -197,7 +195,7 @@ https://fpgasoftware.intel.com/eula.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.pin.
+The pin-out file can be found in C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.pin.
 
 
 +------------------------------------------------------------------------------------------+
@@ -1421,50 +1419,50 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Source Pin / Fanout  ; Pad To Core Index ; Setting ;
 +----------------------+-------------------+---------+
 ; bin[0]               ;                   ;         ;
-;      - Mux3~0        ; 0                 ; 0       ;
-;      - Mux1~0        ; 0                 ; 0       ;
-;      - Mux0~0        ; 0                 ; 0       ;
-;      - Mux6~0        ; 0                 ; 0       ;
-;      - Mux2~0        ; 0                 ; 0       ;
-;      - Mux4~0        ; 0                 ; 0       ;
-;      - Mux5~0        ; 0                 ; 0       ;
+;      - WideOr4~0     ; 0                 ; 0       ;
+;      - WideOr2~0     ; 0                 ; 0       ;
+;      - WideOr1~0     ; 0                 ; 0       ;
+;      - WideOr0~0     ; 0                 ; 0       ;
+;      - WideOr3~0     ; 0                 ; 0       ;
+;      - WideOr5~0     ; 0                 ; 0       ;
+;      - WideOr6~0     ; 0                 ; 0       ;
 ;      - bcd[0]~output ; 0                 ; 0       ;
 ; bin[1]               ;                   ;         ;
 ;      - bcd~0         ; 0                 ; 0       ;
 ;      - bcd~1         ; 0                 ; 0       ;
 ;      - bcd~2         ; 0                 ; 0       ;
 ;      - LessThan0~0   ; 0                 ; 0       ;
-;      - Mux3~0        ; 0                 ; 0       ;
-;      - Mux1~0        ; 0                 ; 0       ;
-;      - Mux0~0        ; 0                 ; 0       ;
-;      - Mux6~0        ; 0                 ; 0       ;
-;      - Mux2~0        ; 0                 ; 0       ;
-;      - Mux4~0        ; 0                 ; 0       ;
-;      - Mux5~0        ; 0                 ; 0       ;
+;      - WideOr4~0     ; 0                 ; 0       ;
+;      - WideOr2~0     ; 0                 ; 0       ;
+;      - WideOr1~0     ; 0                 ; 0       ;
+;      - WideOr0~0     ; 0                 ; 0       ;
+;      - WideOr3~0     ; 0                 ; 0       ;
+;      - WideOr5~0     ; 0                 ; 0       ;
+;      - WideOr6~0     ; 0                 ; 0       ;
 ; bin[3]               ;                   ;         ;
 ;      - bcd~0         ; 1                 ; 0       ;
 ;      - bcd~1         ; 1                 ; 0       ;
 ;      - bcd~2         ; 1                 ; 0       ;
 ;      - LessThan0~0   ; 1                 ; 0       ;
-;      - Mux3~0        ; 1                 ; 0       ;
-;      - Mux1~0        ; 1                 ; 0       ;
-;      - Mux0~0        ; 1                 ; 0       ;
-;      - Mux6~0        ; 1                 ; 0       ;
-;      - Mux2~0        ; 1                 ; 0       ;
-;      - Mux4~0        ; 1                 ; 0       ;
-;      - Mux5~0        ; 1                 ; 0       ;
+;      - WideOr4~0     ; 1                 ; 0       ;
+;      - WideOr2~0     ; 1                 ; 0       ;
+;      - WideOr1~0     ; 1                 ; 0       ;
+;      - WideOr0~0     ; 1                 ; 0       ;
+;      - WideOr3~0     ; 1                 ; 0       ;
+;      - WideOr5~0     ; 1                 ; 0       ;
+;      - WideOr6~0     ; 1                 ; 0       ;
 ; bin[2]               ;                   ;         ;
 ;      - bcd~0         ; 0                 ; 0       ;
 ;      - bcd~1         ; 0                 ; 0       ;
 ;      - bcd~2         ; 0                 ; 0       ;
 ;      - LessThan0~0   ; 0                 ; 0       ;
-;      - Mux3~0        ; 0                 ; 0       ;
-;      - Mux1~0        ; 0                 ; 0       ;
-;      - Mux0~0        ; 0                 ; 0       ;
-;      - Mux6~0        ; 0                 ; 0       ;
-;      - Mux2~0        ; 0                 ; 0       ;
-;      - Mux4~0        ; 0                 ; 0       ;
-;      - Mux5~0        ; 0                 ; 0       ;
+;      - WideOr4~0     ; 0                 ; 0       ;
+;      - WideOr2~0     ; 0                 ; 0       ;
+;      - WideOr1~0     ; 0                 ; 0       ;
+;      - WideOr0~0     ; 0                 ; 0       ;
+;      - WideOr3~0     ; 0                 ; 0       ;
+;      - WideOr5~0     ; 0                 ; 0       ;
+;      - WideOr6~0     ; 0                 ; 0       ;
 +----------------------+-------------------+---------+
 
 
@@ -1675,7 +1673,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Fitter Messages ;
 +-----------------+
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (119006): Selected device 5CSEMA5F31C6 for design "bin2bcd"
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
@@ -1687,7 +1685,7 @@ Info (184021): Fitter periphery placement operations ending: elapsed time is 00:
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:06
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:13
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'bin2bcd.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
@@ -1697,7 +1695,7 @@ Info (332154): The derive_clock_uncertainty command did not apply clock uncertai
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:03
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:02
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
 Info (170192): Fitter placement operations ending: elapsed time is 00:00:00
@@ -1707,24 +1705,24 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.18 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.15 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
-Info (144001): Generated suppressed messages file C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.fit.smsg
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (144001): Generated suppressed messages file C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 7279 megabytes
-    Info: Processing ended: Fri Mar  3 10:15:08 2023
-    Info: Elapsed time: 00:00:24
-    Info: Total CPU time (on all processors): 00:01:03
+    Info: Peak virtual memory: 6174 megabytes
+    Info: Processing ended: Sun Mar  5 13:36:23 2023
+    Info: Elapsed time: 00:00:43
+    Info: Total CPU time (on all processors): 00:01:09
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Esteban/Desktop/Lab #2/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.fit.smsg.
+The suppressed messages can be found in C:/Users/esteb/OneDrive/Escritorio/Lab #2 - Taller Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento_1/output_files/bin2bcd.fit.smsg.
 
 

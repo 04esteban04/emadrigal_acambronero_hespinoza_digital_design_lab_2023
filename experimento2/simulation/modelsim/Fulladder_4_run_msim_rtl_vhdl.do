@@ -52,6 +52,7 @@ vmap work rtl_work
 
 vcom -93 -work work {C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_1.vhd}
 vcom -93 -work work {C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4.vhd}
+vcom -93 -work work {C:/Users/hrlds/Documents/TDigitales/L2_fulladder/codec7seg.vhd}
 
 vcom -93 -work work {C:/Users/hrlds/Documents/TDigitales/L2_fulladder/Fulladder_4tb.vhd}
 

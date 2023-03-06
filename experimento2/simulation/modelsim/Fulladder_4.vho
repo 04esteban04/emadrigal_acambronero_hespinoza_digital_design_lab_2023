@@ -17,7 +17,7 @@
 -- PROGRAM "Quartus Prime"
 -- VERSION "Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition"
 
--- DATE "03/02/2023 23:02:08"
+-- DATE "03/02/2023 23:10:04"
 
 -- 
 -- Device: Altera 5CSEMA5F31C6 Package FBGA896
@@ -39,8 +39,8 @@ ENTITY 	Fulladder_4 IS
 	inA : IN std_logic_vector(3 DOWNTO 0);
 	inB : IN std_logic_vector(3 DOWNTO 0);
 	Cin : IN std_logic;
-	Sum4 : OUT std_logic_vector(6 DOWNTO 0);
-	Cout : OUT std_logic
+	Sum4 : BUFFER std_logic_vector(6 DOWNTO 0);
+	Cout : BUFFER std_logic
 	);
 END Fulladder_4;
 

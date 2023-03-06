@@ -6,7 +6,7 @@ entity Fulladder_4 is
 				 inB :   in STD_LOGIC_VECTOR (3 downto 0);
 				 Cin :   in STD_LOGIC;
 				 Sum4 :  out STD_LOGIC_VECTOR (6 downto 0);
-				 Cout :  out STD_LOGIC);
+				 Cout :  out STD_LOGIC_VECTOR(6 downto 0));
 end Fulladder_4;
  
 architecture Structural of Fulladder_4 is
@@ -31,8 +31,10 @@ component codec7seg is
 end component;
  
 
-signal co1,co2,co3: STD_LOGIC;
+signal co1,co2,co3,co4: STD_LOGIC;
 Signal result: STD_LOGIC_VECTOR (3 downto 0);
+signal concat: std_logic_vector(3 downto 0); -- concatenar el carry de salida
+
  
 begin
  
@@ -40,8 +42,12 @@ begin
 S0: Fulladder_1 port map( inA(0), inB(0), Cin, result(0), co1);
 S1: Fulladder_1 port map( inA(1), inB(1), co1, result(1), co2);
 S2: Fulladder_1 port map( inA(2), inB(2), co2, result(2), co3);
-S3: Fulladder_1 port map( inA(3), inB(3), co3, result(3), Cout);
+S3: Fulladder_1 port map( inA(3), inB(3), co3, result(3), co4);
 
-conv: codec7seg port map(result, Sum4);
+concat <= "000" & co4;
+
+conv0: codec7seg port map(result, Sum4);
+
+conv1: codec7seg port map(concat, Cout);
  
 end Structural;

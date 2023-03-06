@@ -8,20 +8,20 @@ inB[1] => Fulladder_1:S1.inB
 inB[2] => Fulladder_1:S2.inB
 inB[3] => Fulladder_1:S3.inB
 Cin => Fulladder_1:S0.Cin
-Sum4[0] <= codec7seg:conv0.seg7[0]
-Sum4[1] <= codec7seg:conv0.seg7[1]
-Sum4[2] <= codec7seg:conv0.seg7[2]
-Sum4[3] <= codec7seg:conv0.seg7[3]
-Sum4[4] <= codec7seg:conv0.seg7[4]
-Sum4[5] <= codec7seg:conv0.seg7[5]
-Sum4[6] <= codec7seg:conv0.seg7[6]
-Cout[0] <= codec7seg:conv1.seg7[0]
-Cout[1] <= codec7seg:conv1.seg7[1]
-Cout[2] <= codec7seg:conv1.seg7[2]
-Cout[3] <= codec7seg:conv1.seg7[3]
-Cout[4] <= codec7seg:conv1.seg7[4]
-Cout[5] <= codec7seg:conv1.seg7[5]
-Cout[6] <= codec7seg:conv1.seg7[6]
+Sum4[0] << codec7seg:conv0.seg7[0]
+Sum4[1] << codec7seg:conv0.seg7[1]
+Sum4[2] << codec7seg:conv0.seg7[2]
+Sum4[3] << codec7seg:conv0.seg7[3]
+Sum4[4] << codec7seg:conv0.seg7[4]
+Sum4[5] << codec7seg:conv0.seg7[5]
+Sum4[6] << codec7seg:conv0.seg7[6]
+Cout[0] << codec7seg:conv1.seg7[0]
+Cout[1] << codec7seg:conv1.seg7[1]
+Cout[2] << codec7seg:conv1.seg7[2]
+Cout[3] << codec7seg:conv1.seg7[3]
+Cout[4] << codec7seg:conv1.seg7[4]
+Cout[5] << codec7seg:conv1.seg7[5]
+Cout[6] << codec7seg:conv1.seg7[6]
 
 
 |Fulladder_4|Fulladder_1:S0

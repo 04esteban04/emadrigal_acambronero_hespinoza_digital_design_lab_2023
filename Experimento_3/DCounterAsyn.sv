@@ -4,7 +4,7 @@ module DCounterAsyn
   input logic btn_increment,// Boton para aumentar el numero
   input logic btn_decrement,// Boton para bajar el numero
   input logic btn_reset,    // Boton de reset
-  output reg [2**N-1:0] count // El contador
+  output reg [N-1:0] count // El contador
 );
 	always @(negedge btn_decrement or negedge btn_reset or negedge btn_increment) begin //negedge transicion de 1 a 0 
     if (~btn_decrement) begin // Si el boton se presiona se baja en 1 count

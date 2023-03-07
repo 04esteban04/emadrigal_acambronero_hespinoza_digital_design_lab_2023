@@ -1,7 +1,12 @@
 To,Location
 btn_decrement,PIN_AA14
-btn_increment,PIN_AA15
-btn_reset,PIN_W15
+btn_reset,PIN_AE12
+count[0],PIN_V16
+count[1],PIN_W16
+count[2],PIN_V17
+count[3],PIN_V18
+count[4],PIN_W17
+count[5],PIN_W19
 segA[6],PIN_AE26
 segA[5],PIN_AE27
 segA[4],PIN_AE28 

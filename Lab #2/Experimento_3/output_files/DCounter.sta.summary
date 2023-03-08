@@ -1,0 +1,53 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'btn_decrement'
+Slack : -0.458
+TNS   : -3.716
+
+Type  : Slow 1100mV 85C Model Hold 'btn_decrement'
+Slack : 0.219
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'btn_decrement'
+Slack : -0.394
+TNS   : -7.504
+
+Type  : Slow 1100mV 0C Model Setup 'btn_decrement'
+Slack : -0.455
+TNS   : -3.686
+
+Type  : Slow 1100mV 0C Model Hold 'btn_decrement'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'btn_decrement'
+Slack : -0.394
+TNS   : -6.194
+
+Type  : Fast 1100mV 85C Model Setup 'btn_decrement'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'btn_decrement'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'btn_decrement'
+Slack : -0.320
+TNS   : -3.710
+
+Type  : Fast 1100mV 0C Model Setup 'btn_decrement'
+Slack : 0.240
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'btn_decrement'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'btn_decrement'
+Slack : -0.315
+TNS   : -3.623
+
+------------------------------------------------------------

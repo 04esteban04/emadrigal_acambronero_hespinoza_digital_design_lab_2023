@@ -1,0 +1,35 @@
+|DCounter
+btn_decrement => count[0]~reg0.CLK
+btn_decrement => count[1]~reg0.CLK
+btn_decrement => count[2]~reg0.CLK
+btn_decrement => count[3]~reg0.CLK
+btn_decrement => count[4]~reg0.CLK
+btn_decrement => count[5]~reg0.CLK
+btn_reset => count[0]~reg0.PRESET
+btn_reset => count[1]~reg0.PRESET
+btn_reset => count[2]~reg0.PRESET
+btn_reset => count[3]~reg0.PRESET
+btn_reset => count[4]~reg0.PRESET
+btn_reset => count[5]~reg0.PRESET
+count[0] << count[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[1] << count[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[2] << count[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[3] << count[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[4] << count[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+count[5] << count[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+segA[0] << WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+segA[1] << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+segA[2] << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+segA[3] << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+segA[4] << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+segA[5] << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+segA[6] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+segB[0] << WideOr10.DB_MAX_OUTPUT_PORT_TYPE
+segB[1] << WideOr9.DB_MAX_OUTPUT_PORT_TYPE
+segB[2] << WideOr8.DB_MAX_OUTPUT_PORT_TYPE
+segB[3] << WideOr7.DB_MAX_OUTPUT_PORT_TYPE
+segB[4] << Decoder1.DB_MAX_OUTPUT_PORT_TYPE
+segB[5] << segB.DB_MAX_OUTPUT_PORT_TYPE
+segB[6] << segB.DB_MAX_OUTPUT_PORT_TYPE
+
+

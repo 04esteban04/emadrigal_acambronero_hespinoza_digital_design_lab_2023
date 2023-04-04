@@ -1,0 +1,24 @@
+To,Location
+a[0],PIN_AE11
+a[1],PIN_AC9
+a[2],PIN_AD10
+a[3],PIN_AE12
+b[0],PIN_AF9
+b[1],PIN_AF10
+b[2],PIN_AD11
+b[3],PIN_AD12
+operation[0],PIN_AA14 
+operation[1], PIN_AA15 
+operation[2], PIN_W15
+operation[3], PIN_Y16 
+outFlagZ,PIN_V16
+outFlagV,PIN_W16
+outFlagN,PIN_V17
+outFlagC,PIN_V18
+segA[6],PIN_AE26
+segA[5],PIN_AE27
+segA[4],PIN_AE28
+segA[3],PIN_AG27
+segA[2],PIN_AF28
+segA[1],PIN_AG28
+segA[0],PIN_AH28

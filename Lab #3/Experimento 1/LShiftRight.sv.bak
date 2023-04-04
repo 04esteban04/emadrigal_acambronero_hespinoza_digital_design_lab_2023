@@ -1,0 +1,10 @@
+module LShiftRight #(parameter n = 'd4) (inA, inB, resultado);
+	input [n-1:0] inA;
+	input [n-1:0] inB;
+	output [n-1:0] resultado;
+	
+	
+	assign resultado = inA >> inB;
+	
+	
+endmodule 

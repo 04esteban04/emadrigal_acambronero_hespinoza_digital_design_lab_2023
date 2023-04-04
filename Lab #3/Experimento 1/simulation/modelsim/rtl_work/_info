@@ -1,0 +1,466 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/simulation/modelsim
+vALU
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1679172931
+!i10b 1
+!s100 Ped2ND?DV3KhK4;f47_[a2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IlQmk?<lf1j738cQX6fnT70
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1679170303
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU.sv
+!i122 0
+L0 6 20
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1679172931.000000
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work {+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1}
+Z7 tCvgOpt 0
+n@a@l@u
+valu
+R1
+Z8 !s110 1679172932
+!i10b 1
+!s100 :BRe465bL@RReMX_N?NA>2
+R2
+IkmH;i=RIkDDdV9o=jRP=j3
+R3
+S1
+R0
+w1679170291
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_Aux.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_Aux.sv
+!i122 1
+L0 6 146
+R4
+r1
+!s85 0
+31
+Z9 !s108 1679172932.000000
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_Aux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_Aux.sv|
+!i113 1
+R5
+R6
+R7
+vALU_tb
+R1
+Z10 !s110 1679172933
+!i10b 1
+!s100 AioEogS<_k5d2_Ho[kdW53
+R2
+I<;QBicK60cO6^V:]hj:G12
+R3
+S1
+R0
+w1679170316
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_tb.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_tb.sv
+!i122 16
+L0 3 248
+R4
+r1
+!s85 0
+31
+Z11 !s108 1679172933.000000
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/ALU_tb.sv|
+!i113 1
+R5
+R6
+R7
+n@a@l@u_tb
+vAND_op
+R1
+R8
+!i10b 1
+!s100 e^3e9P6UEXW<eTgHHEVM_3
+R2
+ISj>E[S:O1MGFJFLAQZdh>3
+R3
+S1
+R0
+w1679115207
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaAND.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaAND.sv
+!i122 8
+Z12 L0 6 25
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaAND.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaAND.sv|
+!i113 1
+R5
+R6
+R7
+n@a@n@d_op
+vAShiftLeft
+R1
+R10
+!i10b 1
+!s100 S]IEW8Pi1XZ4@NC_^b]ne3
+R2
+I`b;fMkXF`UVf5X^_k5:_00
+R3
+S1
+R0
+w1679114991
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftLeft.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftLeft.sv
+!i122 12
+Z13 L0 6 26
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftLeft.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftLeft.sv|
+!i113 1
+R5
+R6
+R7
+n@a@shift@left
+vAShiftRight
+R1
+R10
+!i10b 1
+!s100 ?16SzL9;OjD<8QoDTXh3A1
+R2
+IbbDB22aKn5M>c;:eCdj2=3
+R3
+S1
+R0
+w1679115414
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftRight.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftRight.sv
+!i122 13
+R13
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftRight.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/AShiftRight.sv|
+!i113 1
+R5
+R6
+R7
+n@a@shift@right
+vcomplement2
+R1
+R8
+!i10b 1
+!s100 S3g=;ZdSzFcmcjP_eCLUk1
+R2
+IUZ2oT?aPV?QVN1U>AaN8W3
+R3
+S1
+R0
+w1679113526
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Comp2.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Comp2.sv
+!i122 6
+L0 6 8
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Comp2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Comp2.sv|
+!i113 1
+R5
+R6
+R7
+vflags
+R1
+R8
+!i10b 1
+!s100 IgLl7zK^ZLf184[dGn2BL2
+R2
+IP@FfE88BXi24CUl7YXSc02
+R3
+S1
+R0
+w1679165764
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/flags.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/flags.sv
+!i122 3
+L0 6 77
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/flags.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/flags.sv|
+!i113 1
+R5
+R6
+R7
+vLShiftLeft
+R1
+R10
+!i10b 1
+!s100 cz9GhKn?;T`FKMfck=EJA0
+R2
+IN9SSVYFlnW8U`kdCQzXF13
+R3
+S1
+R0
+w1679115226
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftLeft.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftLeft.sv
+!i122 14
+R13
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftLeft.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftLeft.sv|
+!i113 1
+R5
+R6
+R7
+n@l@shift@left
+vLShiftRight
+R1
+R10
+!i10b 1
+!s100 [:0^HzVH>Q?_1]Yi:c<Pf2
+R2
+IdI8oXKfW<n7?QQ0El`UIV0
+R3
+S1
+R0
+w1679115306
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftRight.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftRight.sv
+!i122 15
+R13
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftRight.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/LShiftRight.sv|
+!i113 1
+R5
+R6
+R7
+n@l@shift@right
+vmux4
+R1
+R8
+!i10b 1
+!s100 CD_WHeYm<HT@9mNE`FTJM3
+R2
+I4TV56ENS7QQO_Ue?M73oK2
+R3
+S1
+R0
+w1679165904
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Mux.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Mux.sv
+!i122 2
+L0 6 55
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Mux.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Mux.sv|
+!i113 1
+R5
+R6
+R7
+vNOT_op
+R1
+R8
+!i10b 1
+!s100 6kl>izdAzEJVzDacZM@402
+R2
+I@[K4TAL?F;lJ2KC4hcX0V0
+R3
+S1
+R0
+w1679113663
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaNOT.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaNOT.sv
+!i122 10
+L0 6 24
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaNOT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaNOT.sv|
+!i113 1
+R5
+R6
+R7
+n@n@o@t_op
+vOR_op
+R1
+R8
+!i10b 1
+!s100 BbSgEZDIN4U8=>0GFk`_;0
+R2
+IgX_=dE:7?hNY72=DSJa<h0
+R3
+S1
+R0
+w1679113639
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaOR.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaOR.sv
+!i122 9
+R12
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaOR.sv|
+!i113 1
+R5
+R6
+R7
+n@o@r_op
+vRESTA_op
+R1
+R8
+!i10b 1
+!s100 lSba`aWlk`?_Uojkn<3JX2
+R2
+I1U9HLX>]gFzXNNGkf1Y_:1
+R3
+S1
+R0
+w1679113562
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Resta.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Resta.sv
+!i122 7
+L0 6 54
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Resta.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Resta.sv|
+!i113 1
+R5
+R6
+R7
+n@r@e@s@t@a_op
+vsieteSeg
+R1
+R8
+!i10b 1
+!s100 <Vagd^Sk@ZPW:M7[7hi1I2
+R2
+IQVg;CT2mYnd1712U[OP7;0
+R3
+S1
+R0
+w1679168050
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/display7segments.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/display7segments.sv
+!i122 4
+L0 6 34
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/display7segments.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/display7segments.sv|
+!i113 1
+R5
+R6
+R7
+nsiete@seg
+vSUMA_op
+R1
+R8
+!i10b 1
+!s100 UZn[e2KnIkTz<RR2UJgmz1
+R2
+I3;fTU;2[T99_4X2K>=DY01
+R3
+S1
+R0
+w1679113117
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Suma.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Suma.sv
+!i122 5
+L0 6 31
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Suma.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/Suma.sv|
+!i113 1
+R5
+R6
+R7
+n@s@u@m@a_op
+vXOR_op
+R1
+R8
+!i10b 1
+!s100 DP9[>N@_TE>TMNn8VgER`0
+R2
+Ikk:;>EihfM1d7R9ac_nnI0
+R3
+S1
+R0
+w1679114888
+8C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaXOR.sv
+FC:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaXOR.sv
+!i122 11
+R12
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaXOR.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1|C:/Users/Esteban/Desktop/Taller de Diseno Digital/emadrigal_acambronero_hespinoza_digital_design_lab_2023/Experimento 1/CompuertaXOR.sv|
+!i113 1
+R5
+R6
+R7
+n@x@o@r_op

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at RegistroCargaIn.sv(21): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/emadrigal_acambronero_hespinoza_digital_design_lab_2023-experimento1-Lab3/Experimento 1/RegistroCargaIn.sv Line: 21
+Warning (10268): Verilog HDL information at RegistroCargaOut.sv(24): always construct contains both blocking and non-blocking assignments File: C:/intelFPGA_lite/emadrigal_acambronero_hespinoza_digital_design_lab_2023-experimento1-Lab3/Experimento 1/RegistroCargaOut.sv Line: 24

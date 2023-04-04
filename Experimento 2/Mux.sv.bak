@@ -1,0 +1,94 @@
+
+///////////////////////////////////////////////////////////
+//////////////////////  -- MUX --  ////////////////////////
+///////////////////////////////////////////////////////////
+
+module mux4 #(parameter N=4) (input logic [N-1:0] in1,
+										input logic [N-1:0] in2, 
+										input logic [N-1:0] in3, 
+										input logic [N-1:0] in4,
+										input logic [N-1:0] in5,
+										input logic [N-1:0] in6,
+										input logic [1:0] inFlagC,
+										input logic inFlagN,
+										input logic [1:0] inFlagV,
+										input logic [10:0] inFlagZ,
+										input [3:0] operation,
+										output reg [N-1:0] out,
+										output reg outFlagC,
+										output reg outFlagN,
+										output reg outFlagV,
+										output reg outFlagZ);
+
+
+	always @(*) begin
+		
+		case (operation)
+			
+			// OPERACIÓN SUMA DE A+B
+			0: begin 
+					out = in1;
+					outFlagC = inFlagC[0];
+					outFlagN = 0;
+					outFlagV = inFlagV[0];
+					outFlagZ = inFlagZ[0];
+				end
+			
+			// OPERACIÓN RESTA DE A+B
+			1: begin 
+					out = in2;
+					outFlagC = inFlagC[1];
+					outFlagN = inFlagN;
+					outFlagV = inFlagV[1];
+					outFlagZ = inFlagZ[1];
+				end
+			
+			// OPERACIÓN AND
+			2: begin 
+					out = in3;
+					outFlagC = 0;
+					outFlagN = 0;
+					outFlagV = 0;
+					outFlagZ = inFlagZ[2];
+				end
+			
+			// OPERACIÓN OR
+			3: begin 
+					out = in4;
+					outFlagC = 0;
+					outFlagN = 0;
+					outFlagV = 0;
+					outFlagZ = inFlagZ[3];
+				end
+			
+			// OPERACIÓN NOT A
+			4: begin 
+					out = in5;
+					outFlagC = 0;
+					outFlagN = 0;
+					outFlagV = 0;
+					outFlagZ = inFlagZ[4];
+				end
+			
+			// OPERACIÓN NOT B
+			5: begin 
+					out = in6;
+					outFlagC = 0;
+					outFlagN = 0;
+					outFlagV = 0;
+					outFlagZ = inFlagZ[5];
+				end
+				
+			default: begin 
+							out = 0;
+							outFlagC = 0;
+							outFlagN = 0;
+							outFlagV = 0;
+							outFlagZ = 0;
+						end
+
+		endcase
+	
+	end
+	
+endmodule

@@ -10,7 +10,8 @@ module arm(input logic clk, reset, start,
 	logic RegWrite,
 			ALUSrc, MemtoReg, PCSrc;
 			
-	logic [1:0] RegSrc, ImmSrc, ALUControl;
+	logic [1:0] RegSrc, ImmSrc;
+	logic [2:0] ALUControl;
 	
 	controller c(clk, reset, Instr[31:12], ALUFlags,
 						RegSrc, RegWrite, ImmSrc, ALUSrc, ALUControl,

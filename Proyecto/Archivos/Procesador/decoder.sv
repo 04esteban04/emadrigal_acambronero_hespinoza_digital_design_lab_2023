@@ -4,7 +4,8 @@ module decoder(input logic [1:0] Op,
 					output logic [1:0] FlagW,
 					output logic PCS, RegW, MemW,
 					output logic MemtoReg, ALUSrc,
-					output logic [1:0] ImmSrc, RegSrc, ALUControl);
+					output logic [1:0] ImmSrc, RegSrc,
+					output logic [2:0] ALUControl);
 					
 	logic [9:0] controls;
 	logic Branch, ALUOp;
@@ -26,7 +27,7 @@ module decoder(input logic [1:0] Op,
 			default: controls = 10'bx;
 		endcase
 	assign {RegSrc, ImmSrc, ALUSrc, MemtoReg,
-		RegW, MemW, Branch, ALUOp} = controls;
+			  RegW, MemW, Branch, ALUOp} = controls;
 		
 	// ALU Decoder
 	always_comb
@@ -41,9 +42,9 @@ module decoder(input logic [1:0] Op,
 		// update flags if S bit is set (C & V only for arith)
 		FlagW[1] = Funct[0];
 		FlagW[0] = Funct[0] &
-			(ALUControl == 2'b00 | ALUControl == 2'b01);
+					  (ALUControl == 3'b000 | ALUControl == 3'b001);
 		end else begin
-			ALUControl = 2'b00; // add for non-DP instructions
+			ALUControl = 3'b000; // add for non-DP instructions
 			FlagW = 2'b00; // don't update Flags
 		end
 		// PC Logic

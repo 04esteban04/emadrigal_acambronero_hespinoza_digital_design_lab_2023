@@ -30,9 +30,9 @@ module alu#(parameter N = 4)
 		endcase
 	end
 	
-	assign ALUFlags[0] = ~opcode_i[1] & arith_v;
-	assign ALUFlags[1] = ~opcode_i[1] & arith_c;
-	assign ALUFlags[2] = (result_o == '0);
-	assign ALUFlags[3] = result_o[N-1];
+	assign ALUFlags[3] = ~opcode_i[1] & arith_v;
+	assign ALUFlags[2] = ~opcode_i[1] & arith_c;
+	assign ALUFlags[1] = (result_o == '0);
+	assign ALUFlags[0] = result_o[N-1];
 	
 endmodule

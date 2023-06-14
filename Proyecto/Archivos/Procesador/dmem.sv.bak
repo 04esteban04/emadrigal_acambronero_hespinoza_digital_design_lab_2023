@@ -7,8 +7,6 @@ module dmem(input logic clk, we,
 	
 	always_ff @(posedge clk)
 	
-		if (we) begin 
-			RAM[a[31:2]] <= wd;
-		end
+		if (we) RAM[a[31:2]] <= wd;
 		
 endmodule

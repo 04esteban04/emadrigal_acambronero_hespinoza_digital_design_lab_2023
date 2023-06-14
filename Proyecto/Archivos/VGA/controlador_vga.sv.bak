@@ -1,9 +1,7 @@
-module controlador_vga (input clock_25,
-								input reset,
-								input start,
-								input reg [31:0] data_ram,
-								input reg [31:0] data_dmem,
-								output reg [31:0] address,
+module controlador_vga (input  clock_25,
+								input  reset,
+								input reg [23:0] data,
+								output reg [15:0] address,
 								output logic we,
 								output [7:0] red,
 								output [7:0] green,
@@ -16,18 +14,17 @@ module controlador_vga (input clock_25,
 	logic [0:9] pixel_num;
 	logic [0:9] linea_num;
 	logic cambio_linea;
-	logic reset_temp = 0;
 	
 	
 	//Instancias de módulos
 	contador_horizontal contador_horizontal (.reloj(clock_25), 
-														  .reset(reset_temp), 
+														  .reset(0), 
 														  .numero_pixel(pixel_num), 
 														  .cambio_linea(cambio_linea));
 														
 										
 	contador_vertical contador_vertical (.reloj(cambio_linea),
-													 .reset(reset_temp),
+													 .reset(0),
 													 .numero_linea(linea_num));
 								
 			
@@ -41,15 +38,13 @@ module controlador_vga (input clock_25,
 	mostrarImagen generarImagen(.x(pixel_num), 
 										 .y(linea_num),
 										 .reset(reset),
-										 .start(start),
-										 .data_ram(data_ram),
-										 .data_dmem(data_dmem),
+										 .data(data),
 										 .red(red), 
 										 .green(green), 
 										 .blue(blue));
 													
 													
-  	contador_direccion #(32) contador(.clk(clock_25), 
+  	contador_direccion #(16) contador(.clk(clock_25), 
 												 .reset(reset),
 												 .x(pixel_num), 
 												 .y(linea_num),

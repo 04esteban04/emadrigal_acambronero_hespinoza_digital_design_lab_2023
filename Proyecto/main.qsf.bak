@@ -54,41 +54,7 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
-set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_location_assignment PIN_AF14 -to clock_50
-set_location_assignment PIN_AE12 -to reset
-set_location_assignment PIN_AD10 -to start
-set_location_assignment PIN_B11 -to hsync
-set_location_assignment PIN_D11 -to vsync
-set_location_assignment PIN_F10 -to n_blank
-set_location_assignment PIN_A11 -to vgaclock
-set_location_assignment PIN_A13 -to red_out[0]
-set_location_assignment PIN_C13 -to red_out[1]
-set_location_assignment PIN_E13 -to red_out[2]
-set_location_assignment PIN_B12 -to red_out[3]
-set_location_assignment PIN_C12 -to red_out[4]
-set_location_assignment PIN_D12 -to red_out[5]
-set_location_assignment PIN_E12 -to red_out[6]
-set_location_assignment PIN_F13 -to red_out[7]
-set_location_assignment PIN_J9 -to green_out[0]
-set_location_assignment PIN_J10 -to green_out[1]
-set_location_assignment PIN_H12 -to green_out[2]
-set_location_assignment PIN_G10 -to green_out[3]
-set_location_assignment PIN_G11 -to green_out[4]
-set_location_assignment PIN_G12 -to green_out[5]
-set_location_assignment PIN_F11 -to green_out[6]
-set_location_assignment PIN_E11 -to green_out[7]
-set_location_assignment PIN_B13 -to blue_out[0]
-set_location_assignment PIN_G13 -to blue_out[1]
-set_location_assignment PIN_H13 -to blue_out[2]
-set_location_assignment PIN_F14 -to blue_out[3]
-set_location_assignment PIN_H14 -to blue_out[4]
-set_location_assignment PIN_F15 -to blue_out[5]
-set_location_assignment PIN_G15 -to blue_out[6]
-set_location_assignment PIN_J14 -to blue_out[7]
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/main.sv
-set_global_assignment -name SYSTEMVERILOG_FILE Archivos/main_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/Memorias/ram.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/Memorias/ram_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/Memorias/rom.sv
@@ -124,13 +90,9 @@ set_global_assignment -name SYSTEMVERILOG_FILE Archivos/VGA/contador_vertical.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/VGA/controlador_vga.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/VGA/mostrarImagen.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Archivos/VGA/sincronizador.sv
-set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH main_tb -section_id eda_simulation
-set_global_assignment -name EDA_TEST_BENCH_NAME main_tb -section_id eda_simulation
-set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id main_tb
-set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME main_tb -section_id main_tb
-set_global_assignment -name EDA_TEST_BENCH_FILE Archivos/main_tb.sv -section_id main_tb
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

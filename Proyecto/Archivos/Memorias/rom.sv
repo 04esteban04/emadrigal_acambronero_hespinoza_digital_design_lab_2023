@@ -1,12 +1,11 @@
 
-module rom #(  parameter int ADDR_WIDTH = 16, 
-					parameter int DATA_WIDTH = 24) (	input wire clk,
-																input wire [ADDR_WIDTH-1:0] address,
-																output logic [DATA_WIDTH-1:0] data_out);
-																
+module rom (input wire clk,
+				input wire [31:0] address,
+				output logic [31:0] data_out);
+				
 	
 	// Variables requeridas
-  	reg [DATA_WIDTH-1:0] memory [(2**ADDR_WIDTH)-1:0];
+  	reg [31:0] memory [65535:0];
 
 	// Función para cargar los datos de la memoria
 	function void load_memory;

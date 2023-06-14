@@ -1,4 +1,4 @@
-module Proce(input logic clk, reset, start,
+module Procesador(input logic clk, reset, start,
 				output logic [31:0] WriteData, DataAdr,
 				output logic MemWrite);
 	logic [31:0] PC, Instr, ReadData;

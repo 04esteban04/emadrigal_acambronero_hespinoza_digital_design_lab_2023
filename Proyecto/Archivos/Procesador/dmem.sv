@@ -11,4 +11,8 @@ module dmem(input logic clk, we,
 			RAM[a[31:2]] <= wd;
 		end
 		
+//		else begin
+//			rd = RAM[a[31:2]]; // word aligned
+//		end
+		
 endmodule

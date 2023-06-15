@@ -1,0 +1,29 @@
+; Cargar dirección de memoria del arreglo de histograma (histogram) en r0
+20010000
+; Inicializar suma acumulativa en r1
+00000000
+; Inicializar índice en r2
+00000000
+; Inicializar total de píxeles en r3
+00000000
+
+; Calcular suma acumulativa y total de píxeles
+20020000  ; Dirección de memoria del arreglo de histograma (histogram)
+20030000  ; Dirección de memoria de la variable total de píxeles
+loop_cdf:
+    5D010002  ; Cargar valor del histograma en r1 (ldrb r1, [r0, r2])
+    18C00001  ; Sumar valor del histograma a la suma acumulativa (adds r1, r1, r1, LSL #1)
+    5C020002  ; Cargar valor del total de píxeles en r2 (ldr r2, [r3])
+    18800001  ; Sumar valor del histograma al total de píxeles (adds r2, r2, r1)
+    5C020002  ; Almacenar nuevo valor del total de píxeles en r2 (str r2, [r3])
+    1A020001  ; Incrementar índice (adds r2, r2, #1)
+    1B01FFFB  ; Saltar si el índice no es igual a 256 (bne loop_cdf)
+
+; Calcular CDF normalizado
+20030000  ; Dirección de memoria de la variable total de píxeles
+loop_normalize:
+    5C010002  ; Cargar valor del total de píxeles en r1 (ldr r1, [r0])
+    01A00001  ; Dividir cada elemento del arreglo del histograma por el total de píxeles (udiv r1, r1, r1)
+    5C010002  ; Almacenar nuevo valor normalizado en r1 (str r1, [r0])
+    1A000001  ; Incrementar dirección del arreglo (adds r0, r0, #1)
+    1B01FFFF  ; Saltar si la dirección no alcanza el final del arreglo (bne loop_normalize)

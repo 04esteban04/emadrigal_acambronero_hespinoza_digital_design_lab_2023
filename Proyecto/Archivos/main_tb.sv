@@ -38,8 +38,6 @@ module main_tb;
 		reset = 1; #10
 		reset = 0;
 		
-		#10
-		start = 1;
 
 	end
 	

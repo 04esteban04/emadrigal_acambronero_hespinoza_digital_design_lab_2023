@@ -1,0 +1,62 @@
+; Dirección de memoria del inicio de la imagen (image)
+20010000
+; Dirección de memoria del arreglo de histograma (histogram)
+20020000
+; Tamaño del arreglo de histograma (256)
+00000100
+; Valor inicial para el histograma (0)
+00000000
+
+; Calcular el histograma
+20040000  ; Altura de la imagen (image_height)
+loop_rows:
+    20050000  ; Ancho de la imagen (image_width)
+    loop_pixels:
+        5D060001  ; Cargar el valor del píxel actual en r6 (ldrb r6, [r0], #1)
+        5D070006  ; Cargar el valor del histograma en r7 (ldrb r7, [r1, r6])
+        31010001  ; Sumar 1 al valor del histograma (add r7, r7, #1)
+        11010006  ; Almacenar el resultado de vuelta en el histograma (strb r7, [r1, r6])
+        1B050001  ; Decrementar el ancho (subs r5, r5, #1)
+        1AFFFFFB  ; Saltar si el ancho no es cero (bne loop_pixels)
+    1B040001  ; Decrementar la altura (subs r4, r4, #1)
+    1AFFFFF8  ; Saltar si la altura no es cero (bne loop_rows)
+
+; Calcular la función de distribución acumulativa (CDF)
+20020000  ; Dirección de memoria del arreglo de histograma (histogram)
+00000000  ; Suma acumulativa inicializada en 0 (r1)
+00000000  ; Índice inicializado en 0 (r2)
+00000000  ; Total de píxeles inicializado en 0 (r3)
+loop_cdf:
+    5D010002  ; Cargar valor del histograma en r1 (ldrb r1, [r0, r2])
+    18C00001  ; Sumar valor del histograma a la suma acumulativa (adds r1, r1, r1, LSL #1)
+    5C020002  ; Cargar valor del total de píxeles en r2 (ldr r2, [r3])
+    18800001  ; Sumar valor del histograma al total de píxeles (adds r2, r2, r1)
+    5C020002  ; Almacenar nuevo valor del total de píxeles en r2 (str r2, [r3])
+    1A020001  ; Incrementar índice (adds r2, r2, #1)
+    1B01FFFB  ; Saltar si el índice no es igual a 256 (bne loop_cdf)
+
+; Calcular CDF normalizado
+00000000  ; Dirección de memoria del arreglo de histograma (histogram)
+loop_normalize:
+    5C010002  ; Cargar valor del total de píxeles en r1 (ldr r1, [r0])
+    01A00001  ; Dividir cada elemento del arreglo del histograma por el total de píxeles (udiv r1, r1, r1)
+    5C010002  ; Almacenar nuevo valor normalizado en r1 (str r1, [r0])
+    1A000001  ; Incrementar dirección del arreglo (adds r0, r0, #1)
+    1B01FFFF  ; Saltar si la dirección no alcanza el final del arreglo (bne loop_normalize)
+
+; Aplicar equalización de histograma
+20040000  ; Altura de la imagen (image_height)
+loop_equalize:
+    20050000  ; Ancho de la imagen (image_width)
+    loop_pixels_equalize:
+        5D060001  ; Cargar el valor del píxel actual en r6 (ldrb r6, [r0], #1)
+        5D070006  ; Cargar el valor del histograma normalizado en r7 (ldrb r7, [r1, r6])
+        31010006  ; Multiplicar el valor normalizado por 255 (mul r7, r7, #255)
+        39070000  ; Convertir el valor a entero sin signo (ucvtf r7, r7, #0)
+        1E001000  ; Redondear el valor a entero más cercano (frinta r0, r7)
+        2E000000  ; Convertir el valor a entero sin signo (fcvtzu r0, r0)
+        11010006  ; Almacenar el resultado de vuelta en el píxel original (strb r0, [r1, r6])
+        1B050001  ; Decrementar el ancho (subs r5, r5, #1)
+        1AFFFFFB  ; Saltar si el ancho no es cero (bne loop_pixels_equalize)
+    1B040001  ; Decrementar la altura (subs r4, r4, #1)
+    1AFFFFF8  ; Saltar si la altura no es cero (bne loop_equalize)

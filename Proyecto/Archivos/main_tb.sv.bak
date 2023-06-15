@@ -1,0 +1,47 @@
+
+module main_tb;
+	
+	// Inputs
+	reg clock_50;
+	reg reset;
+	reg start;
+
+	// Outputs
+	wire [7:0] red_out;
+	wire [7:0] green_out;
+	wire [7:0] blue_out;
+	wire hsync;
+	wire vsync;
+	wire n_blank;
+	wire vgaclock;
+
+	// Instancia
+	main dut (.clock_50(clock_50),
+				 .reset(reset),
+				 .start(start),
+				 .red_out(red_out),
+				 .green_out(green_out),
+				 .blue_out(blue_out),
+				 .hsync(hsync),
+				 .vsync(vsync),
+				 .n_blank(n_blank),
+				 .vgaclock(vgaclock));
+
+	// Inicialización
+	initial begin
+		clock_50 = 0;
+		reset = 1;
+		start = 0;
+
+		// Wait for reset to be released
+		#10 reset = 0;
+
+		// Toggle clock_50 and start signal
+		repeat (100) begin
+		#5 clock_50 = ~clock_50;
+		#10 start = ~start;
+		end
+
+	end
+
+endmodule

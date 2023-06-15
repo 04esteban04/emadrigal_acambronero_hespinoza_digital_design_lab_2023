@@ -1,0 +1,18 @@
+20010000  ; Dirección de memoria del inicio de la imagen (image)
+20020000  ; Dirección de memoria del arreglo de histograma (histogram)
+00000100  ; Tamaño del arreglo de histograma (256)
+00000000  ; Valor inicial para el histograma (0)
+
+; Calcular el histograma
+20040000  ; Altura de la imagen (image_height)
+loop_rows:
+    20050000  ; Ancho de la imagen (image_width)
+    loop_pixels:
+        5D060001  ; Cargar el valor del píxel actual en r6 (ldrb r6, [r0], #1)
+        5D070006  ; Cargar el valor del histograma en r7 (ldrb r7, [r1, r6])
+        31010001  ; Sumar 1 al valor del histograma (add r7, r7, #1)
+        11010006  ; Almacenar el resultado de vuelta en el histograma (strb r7, [r1, r6])
+        1B050001  ; Decrementar el ancho (subs r5, r5, #1)
+        1AFFFFFB  ; Saltar si el ancho no es cero (bne loop_pixels)
+    1B040001  ; Decrementar la altura (subs r4, r4, #1)
+    1AFFFFF8  ; Saltar si la altura no es cero (bne loop_rows)
